@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kbase1-mcp-service": {
+      "command": "python",
+      "args": ["-m", "yfy_mcp_server"],
+      "env": {
+        "DASHSCOPE_API_KEY": "sk-xxxx"
+      }
+    }
+  }
+}

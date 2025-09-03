@@ -82,6 +82,9 @@ def main(transport='stdio', host='0.0.0.0', port=8000):
         mcp.run(transport='stdio')
 
 
+# if __name__ == "__main__":
+#     import sys
+#     main()
 if __name__ == "__main__":
-    import sys
-    main()
+    # 确保使用 stdio 传输
+    mcp.run(transport="stdio")
