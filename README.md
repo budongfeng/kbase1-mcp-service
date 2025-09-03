@@ -13,3 +13,18 @@
 
 ```bash
 pip install .
+
+## 参数配置
+{
+  "mcpServers": {
+    "kbase1-mcp-service": {
+      "args": [
+        "kbase1-mcp-server"
+      ],
+      "command": "python",
+      "env": {
+        "DASHSCOPE_API_KEY": "sk-xxxx"
+      }
+    }
+  }
+}
